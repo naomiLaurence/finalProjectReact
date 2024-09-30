@@ -1,0 +1,10 @@
+
+
+.custom-navbar-link {
+    @apply block py-2 pl-3 pr-4 md:p-0 border-b border-gray-100  text-[#59372b] dark:border-gray-700 dark:text-gray-400 md:border-0 md:hover:bg-transparent text-xs;
+}
+
+.custom-navbar-link:hover {
+    @apply text-[#7a4d3d];
+    /* שינוי הצבע לצהוב בזמן hover */
+}
